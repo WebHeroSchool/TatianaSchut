@@ -50,7 +50,7 @@ body {
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: font-size .5s;
+  transition: font-size 0.5s;
 }
 
 .menu__item:last-child {
@@ -65,7 +65,7 @@ body {
   width: 0;
   height: 3px;
   background: #0056EC;
-  transition: width .5s;
+  transition: width 0.5s;
 }
 
 .menu__item:hover {
@@ -82,8 +82,7 @@ body {
   background: #0056EC;
 }
 
-.menu__item:hover::after
-,
+.menu__item:hover::after,
 .menu__item_active::after {
   width: 100%;
 }
