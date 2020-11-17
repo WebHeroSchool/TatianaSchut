@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  position: relative; 
+  position: relative;
   padding: 40px 0 40px 44px;
   font: bold 24px/31px "PT Serif", arial, helvetica, sans-serif;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .menu__item::after {
