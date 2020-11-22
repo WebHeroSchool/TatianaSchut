@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 83px;
 }
 
 .logo {
@@ -27,7 +27,7 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_dark-blue {
@@ -43,11 +43,12 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 4px;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 24px;
+  margin: 11px 27px 0 0;
   font: 700 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -75,10 +76,9 @@ body {
 
 .menu__item:hover::after {
   position: absolute;
-  left: 0;
   display: block;
   content: '';
-  width: 100%;
+  width: 0%;
   height: 3px;
   background: #0056EC;
 }
@@ -98,36 +98,32 @@ body {
 }
 
 .main {
-  padding: 0 56% 83px 0;
+  padding: 0 55% 100px 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/66px 'PT Serif', arial, helvetica, sans-serif;
+  padding-top: 17px;
+  font: bold 50px/66px "PT Serif", arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
-  background: #ecf3ff;
+  background: #ECF3FF;
 }
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 700 18px/21px Roboto, arial, helvetica, sans-serif;
-  width: 89%;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  width: 93%;
 }
 
 .main__button {
   display: inline-block;
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  text-decoration: none;
   color: #fff;
   background: #0056EC;
-  padding: 14px 25px 13px 16px;
-  text-decoration: none;
+  padding: 14px 16px;
   border-radius: 4px;
-  transition: opacity 0.5;
-}
-
-.main__button:hover {
-  opacity: 0.5;
 }
