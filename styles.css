@@ -40,6 +40,10 @@ body {
   background: #C8DBFB;
 }
 
+#toggle {
+  display: none;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -138,7 +142,7 @@ body {
     align-items: center;
     position: fixed;
     top: 39px;
-    left: 329px;
+    left: 90%;
     width: 25px;
     height: 3px;
     z-index: 1;
