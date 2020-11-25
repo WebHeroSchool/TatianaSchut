@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap">
   <link rel="stylesheet" href="styles.css">
@@ -17,7 +18,12 @@
         app.creation
       </div>
 
-	  <nav class="menu">
+      <input id="toggle" type="checkbox"/>
+  	  <label class="toggle-container" for="toggle">
+  		  <span class="button button-toggle"></span>
+  	  </label>
+
+	  <nav class="menu burger-menu">
 	    <a class="menu__item" href="">start</a>
 	    <a class="menu__item menu__item_active" href="">services</a>
 	    <a class="menu__item" href="">about</a>
