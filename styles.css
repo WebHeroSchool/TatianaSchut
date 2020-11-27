@@ -132,7 +132,12 @@ body {
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1152px) {
+  .wrapper {
+    width: 91%;
+  }
+
+@media (max-width: 800px) {
   #toggle {
     display: none;
   }
