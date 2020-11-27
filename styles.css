@@ -136,6 +136,7 @@ body {
   .wrapper {
     width: 91%;
   }
+}
 
 @media (max-width: 800px) {
   #toggle {
