@@ -132,6 +132,10 @@ body {
   border-radius: 4px;
 }
 
+.main__button:hover {
+  animation: flashing 1s ease-in-out infinite;
+}
+
 @media (max-width: 1152px) {
   .wrapper {
     width: 91%;
@@ -270,5 +274,19 @@ body {
 
   .main__bottom {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@keyframes flashing {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
